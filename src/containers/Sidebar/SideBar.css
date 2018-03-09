@@ -1,0 +1,7 @@
+.Sidebar {
+    background-color: rgb(192, 204, 238);
+    width: 25%;
+    min-height: 100%;
+    float: left;
+    padding: 10px;
+}
