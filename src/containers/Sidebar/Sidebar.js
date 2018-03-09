@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Aux from '../../hoc/Aux';
 
 import ProjCard from '../../components/ProjCard/ProjCard'
 import classes from './SideBar.css';
@@ -47,12 +46,12 @@ class SideBar extends Component {
                     />
         })
         return(
-            <Aux>
+            <div>
                 <div className={classes.Sidebar}>
                 <p> Lista de projetos </p>
                     {projects}
                 </div>
-            </Aux>
+            </div>
         );
     }
 }

@@ -1,10 +1,9 @@
 import React from 'react';
-import Aux from '../../hoc/Aux';
 
 const Layout = (props) => (
-    <Aux>
+    <div>
        {props.children}
-    </Aux>
+    </div>
 )
 
 export default Layout
